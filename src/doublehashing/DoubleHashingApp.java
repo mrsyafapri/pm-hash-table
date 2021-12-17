@@ -1,10 +1,10 @@
-package openadressing;
+package doublehashing;
 
 /**
  *
  * @author Muhammad Rizki Syafapri <12050110483>
  */
-public class HashTableApp {
+public class DoubleHashingApp {
 
     public static void main(String[] args) {
         HashTable hashTable = new HashTable(15);
@@ -29,7 +29,7 @@ public class HashTableApp {
 
         hashTable.displayTable();
 
-        Data find = hashTable.find(7);
+        Data find = hashTable.find(14);
         if (find == null) {
             System.out.println("Data tidak ditemukan");
         } else {

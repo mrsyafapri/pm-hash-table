@@ -12,7 +12,6 @@ public class HashTable {
     public HashTable(int size) {
         this.size = size;
         hashArray = new Data[size];
-
     }
 
     public void displayTable() {
